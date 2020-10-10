@@ -6,9 +6,9 @@ const insertDot = (url) => {
     const arr = url.split("medium.com");
     const newUrl = arr[0] + "medium.com." + arr[1];
     return newUrl;
-}
+};
 
-chrome.webNavigation.onBeforeNavigate.addListener( async (details) => {
+chrome.webNavigation.onBeforeNavigate.addListener( (details) => {
 
     print(details.url);
     const newUrl = insertDot(details.url);
