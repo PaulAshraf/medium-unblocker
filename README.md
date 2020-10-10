@@ -20,7 +20,7 @@ git clone https://github.com/PaulAshraf/medium-unblocker.git
 
 4. Click the LOAD UNPACKED button and select the extension directory.
 
-![Loading the extension in chrome](load_extenstion.png)
+![Loading the extension in chrome](https://github.com/PaulAshraf/medium-unblocker/blob/main/load_extension.png?raw=true)
 
 ---
 
